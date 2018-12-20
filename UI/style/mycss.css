@@ -8,10 +8,11 @@ body{
 }
 
 .container{
-	width: 1200px;
-	margin: auto;
+	width: auto;
+	margin:auto;
 	overflow: hidden;
 }
+
 /* header */
 header{
 	background:#35424a;
@@ -19,6 +20,7 @@ header{
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom: #e3491d 3px solid;
+	text-align: center;
 }
 header a{
 	color: #ffffff;
@@ -42,14 +44,28 @@ header a:hover{
 	color: #cccccc;
 	font-weight: bold;
 }
-#showcase{
-	text-align: center;
-}
+
 #welcome{
 	font-size: 20;
 	color:lightblue;
 }
 #showcase{
 	min-height: 400px;
-	background: url('../images/download.jpg') no-repeat;
+	background: url('../images/banner.jpg') no-repeat,;
+	text-align:center;
+	background-color:grey;
+
+}
+#return{
+	text-align: center;
+}
+#newsletter{
+		margin:4;
+		text-align:right;
+		background-color: lightblue;	
+}
+footer{
+	background-color: maroon;
+	text-align: center;
+	text-decoration-color: black;
 }
