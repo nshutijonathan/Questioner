@@ -49,3 +49,7 @@ header a:hover{
 	font-size: 20;
 	color:lightblue;
 }
+#showcase{
+	min-height: 400px;
+	background: url('../images/download.jpg') no-repeat;
+}
