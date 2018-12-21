@@ -63,7 +63,10 @@ header a:hover{
 #newsletter{
 		margin:4;
 		text-align:right;
-		background-color: lightblue;	
+		background-color: lightblue;
+		width: auto;
+	    margin:auto;
+	    overflow: hidden;
 }
 footer{
 	background-color: maroon;
@@ -143,4 +146,12 @@ footer{
 }
 #image1{
 		background: url('../images/technology.jpg') no-repeat,;
+}
+#newsletter{
+	min-height: 100px;
+	background: url('../images/banner.jpg') no-repeat,;
+	text-align:center;
+	background-color:lightblue;
+	vertical-align: top;
+
 }
