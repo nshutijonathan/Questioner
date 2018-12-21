@@ -103,26 +103,29 @@ footer{
   #subscribe{
   	font-size: 60px;
   }
-  #admin{
+  #admin_dash{
   position:absolute;
   width:450px;px;
   height:240px;
   border:1px solid black;
   padding:10px;
 }
-#admin > div{
+#admin_dash > div{
   float:right;
   margin:10px;
   text-align: center;
 }
-#d1{
+#d1_dash{
   width:600px;
   height:300px;
   border:1px solid red;
 }
 
-#d2{
+#d2_dash{
   width:600px;
   height:300px;
   border:1px solid blue;
+}
+#admin_panel{
+	text-align: center;
 }
