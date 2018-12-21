@@ -141,3 +141,6 @@ footer{
     100%{   color: #000;    }
     b
 }
+#image1{
+		background: url('../images/technology.jpg') no-repeat,;
+}
