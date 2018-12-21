@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-	width: auto;
+	width: 90%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -36,9 +36,11 @@ header li{
 }
 header nav{
 	float: right;
+	margin-bottom:20px;
 }
 header #branding h1{
 	margin:0;
+	float:left;
 }
 header a:hover{
 	color: #cccccc;
@@ -129,10 +131,12 @@ footer{
   height:300px;
   border:1px solid blue;
 }
+
+}
 #admin_panel{
 	text-align: center;
 }
-#Questioner{
+/*#Questioner{
 	color: white;	
     animation:blinkingText 5s infinite;
 }
@@ -143,7 +147,7 @@ footer{
     99%{    color:transparent;  }
     100%{   color: #000;    }
     b
-}
+}*/
 #image1{
 		background: url('../images/technology.jpg') no-repeat,;
 }
