@@ -155,12 +155,18 @@ footer{
 	vertical-align: top;
 
 }
-#header3{
+#header3 {
 	text-align: center;
 }
-#textarea{
+#textarea {
 	text-align: center;
 }
-#user_profile{
+#user_profile {
 	text-align: center;
+}
+#table_row {
+	max-height: 20px;
+}
+#table_row td {
+width: 20px;
 }
