@@ -132,7 +132,7 @@ footer{
 #admin_panel{
 	text-align: center;
 }
-#Questioner{
+/*#Questioner{
 	color: white;	
     animation:blinkingText 5s infinite;
 }
@@ -142,7 +142,7 @@ footer{
     50%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
-    b
+    b*/
 }
 #image1{
 		background: url('../images/technology.jpg') no-repeat,;
