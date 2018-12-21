@@ -14,7 +14,6 @@ helps the meetup organizers to prioritize  questions most users are interested i
 
 technologies to use at the moment:
 
-.HTML &CSS
-
+.HTML &CSS&javascript
 
 
