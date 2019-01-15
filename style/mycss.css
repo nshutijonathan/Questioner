@@ -149,8 +149,13 @@ footer{
     50%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
+<<<<<<< HEAD:UI/style/mycss.css
     b
 }*/
+=======
+    b*/
+}
+>>>>>>> gh-pages:style/mycss.css
 #image1{
 		background: url('../images/technology.jpg') no-repeat,;
 }
