@@ -7,6 +7,9 @@ body{
 	background-color: #f4f4f4;
 	border:1px solid black;
 }
+nav ul{
+	color: black;
+}
 
 .container{
 	width: 90%;
@@ -16,7 +19,7 @@ body{
 
 /* header */
 header{
-	background:#35424a;
+	background-color: #f4f4f4;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
