@@ -1,3 +1,3 @@
 const meetups = [];
 
-export default meetups;
+module.exports=meetups;

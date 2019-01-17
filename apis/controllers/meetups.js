@@ -22,8 +22,8 @@ router.post('/', (req, res) => {
 
 	meetups.push(meetup);
 	res.send({
-		status: 200,
-		data: meetups
+		status: 201,
+		data: meetup
 	});
 	});
 
