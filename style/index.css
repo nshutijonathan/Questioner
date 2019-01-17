@@ -1,0 +1,59 @@
+/* Andelan gracian helped me to implement this css 
+#f4f4f4*/
+*,body{
+	margin: 0;
+	padding:0;
+}
+body{
+  background-color:grey ;
+}
+.authentication{
+	width: 100%;
+	padding-top: 10%;
+}
+.form_wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	width: 30%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 70px;
+}
+.form_wrap input{
+	height: 45px;
+	width: 100%;
+	margin-top: 10px;
+	border:1px solid #ddd;
+	padding: 5px;
+	border-radius: 3px;
+}
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e3491d 3px solid;
+	
+
+}
+.header{
+	align-items: center;
+}
+footer{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 50px;
+	border-bottom: #e3491d 3px solid;
+	text-align:center;
+}
+.don_account{
+font-weight:bold;
+}

@@ -5,20 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="style/mycss.css">
 </head>
 <header>
-	<P id="return"><a href="index.html">return to homepage</a></P>
+	<P id="return"><a href="homepage.html">return to homepage</a></P>
 </header>
-<h3>CREATE MEETUPS</h3>
+<h3>create meetups</h3>
 <body class="Meetupname">
-Meet_upname:<input type="text" name="" placeholder="enter Meetupname"><br><br>
-Meet_date:<input type="date" name="" placeholder="enter Meetupdate"><br><br>
-Meetup_location:<input type="text" name="" placeholder="enter Meetuplocation"><br><br>
-number_of_attendies:<input type="number" name="" placeholder="enter number of attendies"><br><br>
-Meetup_logo:<input type="file" name="pic" accept="image/*"><br><br><br>
-Meetup_objective:<br>
+	<form>
+		<div class="container">
+<label>Meet_upname</label>:<input type="text" name="" placeholder="enter Meetupname" required="true"><br><br>
+<label>Meet_date</label>:<input type="date" name="" placeholder="enter Meetupdate" required="true"><br><br>
+<label>Meetup_location</label>:<input type="text" name="" placeholder="enter Meetuplocation" required="true"><br><br>
+<label>number_of_attendies</label>:<input type="number" name="" placeholder="enter number of attendies" required="true"><br><br>
+<label>Meetup_logo</label>:<input type="file" name="pic" accept="image/*"><br><br><br>
+<label>Meetup_objective</label>:<br>
 <textarea rows="4" cols="50"></textarea><br>
 <input type="submit" name="" value="Submit_meet_up">
-</body>
+</div>
+</form>
 <footer>
-	<p><h5>Questioner,copyrights &copy;2018 !alrights reserved by Jonathan</h5></p>
+<p><h5>Questioner,copyrights &copy;2018 !alrights reserved by Andela</h5></p>
 </footer>
+</body>
 </html>
